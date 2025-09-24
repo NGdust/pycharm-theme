@@ -45,6 +45,7 @@
     "color": "#1a1b26",
     "theme": "dark"
   },
+  "icon": "assets/logo.png",
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish"

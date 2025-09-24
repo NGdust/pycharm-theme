@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/logo.png" alt="Quantum Night Logo" width="200">
+</div>
+
 # Quantum Night
 
 ![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
