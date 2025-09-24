@@ -57,11 +57,6 @@ Quantum Night theme for VS Code and Cursor with advanced syntax highlighting.
 
 ## 📝 Changelog
 
-### 1.1.0
-- Update theme description
-- Improve color palette
-- Update documentation
-
 ### 1.0.0
 - Initial release
 - VS Code and Cursor support
