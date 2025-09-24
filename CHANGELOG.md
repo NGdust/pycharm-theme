@@ -1,42 +1,42 @@
 # Changelog
 
-Все значимые изменения в этом проекте будут документированы в этом файле.
+All notable changes to this project will be documented in this file.
 
-Формат основан на [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
-и этот проект придерживается [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [1.1.0] - 2025-01-27
 
-### Изменено
-- Убраны все упоминания Poimandres
-- Обновлено описание темы
-- Улучшена цветовая палитра
-- Обновлена документация
+### Changed
+- Remove all Poimandres references
+- Update theme description
+- Improve color palette
+- Update documentation
 
 ## [1.0.0] - 2025-01-27
 
-### Добавлено
-- Первоначальный релиз темы PyCharm
-- Поддержка VS Code и Cursor
-- Профессиональная цветовая схема
-- Синтаксическая подсветка в стиле JetBrains
-- Поддержка всех основных языков программирования
-- Оптимизация для тёмного режима
-- Детальная настройка цветов для Python, JavaScript, TypeScript и других языков
-- Поддержка терминала с цветовой схемой темы
-- Настройка цветов для Git diff, ошибок, предупреждений и информации
-- Цветовая схема для мини-карты и скроллбаров
+### Added
+- Initial PyCharm theme release
+- VS Code and Cursor support
+- Professional color scheme
+- JetBrains-style syntax highlighting
+- Support for all major programming languages
+- Dark mode optimization
+- Detailed color configuration for Python, JavaScript, TypeScript and other languages
+- Terminal support with theme color scheme
+- Color configuration for Git diff, errors, warnings and info
+- Color scheme for minimap and scrollbars
 
-### Технические детали
-- Совместимость с VS Code 1.74.0+
-- Полная поддержка semantic highlighting
-- Оптимизированная цветовая палитра для снижения усталости глаз
-- Поддержка всех элементов интерфейса VS Code/Cursor
+### Technical Details
+- VS Code 1.74.0+ compatibility
+- Full semantic highlighting support
+- Optimized color palette to reduce eye strain
+- Support for all VS Code/Cursor interface elements
 
 ## [Unreleased]
 
-### Планируется
-- Добавление светлой версии темы
-- Улучшение поддержки дополнительных языков программирования
-- Оптимизация цветов для лучшей читаемости
-- Добавление дополнительных вариантов цветовой схемы
+### Planned
+- Add light theme version
+- Improve support for additional programming languages
+- Optimize colors for better readability
+- Add additional color scheme variants

@@ -4,62 +4,62 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.74.0+-blue.svg)
 
-Профессиональная тема PyCharm для VS Code и Cursor с продвинутой синтаксической подсветкой.
+Professional PyCharm theme for VS Code and Cursor with advanced syntax highlighting.
 
-## 🎨 Особенности
+## 🎨 Features
 
-- **Цветовая палитра**: Профессиональная тёмная палитра
-- **Синтаксическая подсветка**: В стиле JetBrains с детальной настройкой
-- **Поддержка**: Все основные языки программирования
-- **Оптимизация**: Для комфортной работы в тёмном режиме
-- **Совместимость**: VS Code и Cursor
+- **Color Palette**: Professional dark palette
+- **Syntax Highlighting**: JetBrains-style with detailed configuration
+- **Support**: All major programming languages
+- **Optimization**: For comfortable work in dark mode
+- **Compatibility**: VS Code and Cursor
 
-## 🚀 Установка
+## 🚀 Installation
 
 ### VS Code
 
-1. Откройте VS Code
-2. Нажмите `Ctrl+Shift+X` (или `Cmd+Shift+X` на macOS)
-3. Найдите "PyCharm Professional Dark"
-4. Нажмите "Install"
+1. Open VS Code
+2. Press `Ctrl+Shift+X` (or `Cmd+Shift+X` on macOS)
+3. Search for "PyCharm Professional Dark"
+4. Click "Install"
 
 ### Cursor
 
-1. Откройте Cursor
-2. Нажмите `Ctrl+Shift+X` (или `Cmd+Shift+X` на macOS)
-3. Найдите "PyCharm Professional Dark"
-4. Нажмите "Install"
+1. Open Cursor
+2. Press `Ctrl+Shift+X` (or `Cmd+Shift+X` on macOS)
+3. Search for "PyCharm Professional Dark"
+4. Click "Install"
 
-### Ручная установка
+### Manual Installation
 
-1. **Скачайте .vsix файл** из [Releases](https://github.com/NGdust/pycharm-theme/releases)
-2. **Установите через командную палитру:**
-   - `Ctrl+Shift+P` (или `Cmd+Shift+P`)
+1. **Download .vsix file** from [Releases](https://github.com/NGdust/pycharm-theme/releases)
+2. **Install via command palette:**
+   - `Ctrl+Shift+P` (or `Cmd+Shift+P`)
    - "Extensions: Install from VSIX..."
-   - Выберите скачанный файл
+   - Select downloaded file
 
-## 🎯 Активация темы
+## 🎯 Activating the Theme
 
-1. Откройте VS Code/Cursor
-2. Нажмите `Ctrl+Shift+P` (или `Cmd+Shift+P`)
-3. Введите "Preferences: Color Theme"
-4. Выберите "PyCharm Professional Dark"
+1. Open VS Code/Cursor
+2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P`)
+3. Type "Preferences: Color Theme"
+4. Select "PyCharm Professional Dark"
 
-## 🎨 Цветовая схема
+## 🎨 Color Scheme
 
-| Элемент | Цвет | Описание |
-|---------|------|----------|
-| **Фон** | `#1a1b26` | Тёмно-синий |
-| **Текст** | `#e4f0fb` | Светло-серый |
-| **Ключевые слова** | `#e0957b` | Оранжевый |
-| **Строки** | `#62a362` | Зелёный |
-| **Функции** | `#c7a65d` | Жёлтый |
-| **Классы** | `#c9c9d1` | Светло-серый |
-| **Комментарии** | `#565f89` | Серый, курсив |
+| Element | Color | Description |
+|---------|-------|-------------|
+| **Background** | `#1a1b26` | Dark blue |
+| **Text** | `#e4f0fb` | Light gray |
+| **Keywords** | `#e0957b` | Orange |
+| **Strings** | `#62a362` | Green |
+| **Functions** | `#c7a65d` | Yellow |
+| **Classes** | `#c9c9d1` | Light gray |
+| **Comments** | `#565f89` | Gray, italic |
 
-## 📸 Скриншоты
+## 📸 Screenshots
 
-### Python код
+### Python code
 ```python
 class Example:
     def __init__(self, name: str):
@@ -69,7 +69,7 @@ class Example:
         return f"Hello, {self.name}!"
 ```
 
-### JavaScript код
+### JavaScript code
 ```javascript
 const theme = {
     name: "PyCharm Professional Dark",
@@ -80,49 +80,55 @@ const theme = {
 };
 ```
 
-## 🛠️ Разработка
+## 🛠️ Development
 
-### Установка зависимостей
+### Install dependencies
 ```bash
 npm install
 ```
 
-### Сборка пакета
+### Build package
 ```bash
 npm run package
 ```
 
-### Публикация
+### Publish
 ```bash
 npm run publish
 ```
 
 ## 📝 Changelog
 
+### 1.1.0
+- Remove Poimandres references
+- Update theme description
+- Improve color palette
+- Update documentation
+
 ### 1.0.0
-- Первоначальный релиз
-- Поддержка VS Code и Cursor
-- Цветовая схема Poimandres
-- Синтаксическая подсветка JetBrains
+- Initial release
+- VS Code and Cursor support
+- Professional color scheme
+- JetBrains syntax highlighting
 
-## 🤝 Вклад в проект
+## 🤝 Contributing
 
-1. Форкните репозиторий
-2. Создайте ветку для новой функции (`git checkout -b feature/amazing-feature`)
-3. Зафиксируйте изменения (`git commit -m 'Add amazing feature'`)
-4. Отправьте в ветку (`git push origin feature/amazing-feature`)
-5. Откройте Pull Request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📄 Лицензия
+## 📄 License
 
-Этот проект лицензирован под MIT License - см. файл [LICENSE](LICENSE) для деталей.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Ссылки
+## 🔗 Links
 
 - [GitHub Repository](https://github.com/NGdust/pycharm-theme)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=NGdust.mixed-jetbrains-poimandres-theme)
 - [Issues](https://github.com/NGdust/pycharm-theme/issues)
 
-## ⭐ Поддержка
+## ⭐ Support
 
-Если вам нравится эта тема, поставьте звезду ⭐ на GitHub!
+If you like this theme, give it a star ⭐ on GitHub!

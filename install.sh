@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Скрипт для установки PyCharm Professional Dark в Cursor
+# Script to install PyCharm Professional Dark in Cursor
 
-echo "🎨 Установка PyCharm Professional Dark в Cursor..."
+echo "🎨 Installing PyCharm Professional Dark in Cursor..."
 
 # Определяем операционную систему
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -15,32 +15,32 @@ elif [[ "$OSTYPE" == "msys" ]] || [[ "$OSTYPE" == "cygwin" ]]; then
     # Windows (Git Bash)
     CURSOR_EXTENSIONS_DIR="$USERPROFILE/.cursor/extensions"
 else
-    echo "❌ Неподдерживаемая операционная система: $OSTYPE"
+    echo "❌ Unsupported operating system: $OSTYPE"
     exit 1
 fi
 
-# Создаём директорию расширений если её нет
+# Create extensions directory if it doesn't exist
 mkdir -p "$CURSOR_EXTENSIONS_DIR"
 
-# Копируем тему
+# Copy theme
 THEME_DIR="$CURSOR_EXTENSIONS_DIR/pycharm-theme"
-echo "📁 Копирование темы в $THEME_DIR..."
+echo "📁 Copying theme to $THEME_DIR..."
 
 if [ -d "$THEME_DIR" ]; then
-    echo "⚠️  Тема уже установлена. Удаляем старую версию..."
+    echo "⚠️  Theme already installed. Removing old version..."
     rm -rf "$THEME_DIR"
 fi
 
-# Получаем путь к текущей директории
+# Get current directory path
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cp -r "$SCRIPT_DIR" "$THEME_DIR"
 
-echo "✅ Тема успешно установлена!"
+echo "✅ Theme successfully installed!"
 echo ""
-echo "📋 Следующие шаги:"
-echo "1. Перезапустите Cursor"
-echo "2. Нажмите Cmd+Shift+P (или Ctrl+Shift+P)"
-echo "3. Введите 'Preferences: Color Theme'"
-echo "4. Выберите 'PyCharm Professional Dark'"
+echo "📋 Next steps:"
+echo "1. Restart Cursor"
+echo "2. Press Cmd+Shift+P (or Ctrl+Shift+P)"
+echo "3. Type 'Preferences: Color Theme'"
+echo "4. Select 'PyCharm Professional Dark'"
 echo ""
-echo "🎉 Наслаждайтесь новой темой!"
+echo "🎉 Enjoy your new theme!"
