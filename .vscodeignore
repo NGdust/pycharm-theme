@@ -1,0 +1,30 @@
+# Исключаем файлы из пакета VS Code расширения
+
+# Скрипты установки
+install.sh
+
+# Документация разработки
+*.md
+!README.md
+
+# Git файлы
+.git/
+.gitignore
+
+# Node modules (если будут)
+node_modules/
+
+# Временные файлы
+*.tmp
+*.log
+
+# IDE файлы
+.vscode/
+.idea/
+
+# OS файлы
+.DS_Store
+Thumbs.db
+
+# Пакеты
+*.vsix

@@ -1,0 +1,56 @@
+{
+  "name": "mixed-jetbrains-poimandres-theme",
+  "displayName": "PyCharm Theme",
+  "description": "PyCharm theme for VS Code and Cursor with professional syntax highlighting",
+  "version": "1.0.0",
+  "publisher": "NGdust",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "jetbrains",
+    "poimandres",
+    "cursor",
+    "vscode",
+    "syntax",
+    "highlighting"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PyCharm Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mixed-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NGdust/pycharm-theme"
+  },
+  "homepage": "https://github.com/NGdust/pycharm-theme",
+  "bugs": {
+    "url": "https://github.com/NGdust/pycharm-theme/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "NGdust",
+    "email": "your-email@example.com"
+  },
+  "galleryBanner": {
+    "color": "#1a1b26",
+    "theme": "dark"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  }
+}
