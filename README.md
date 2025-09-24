@@ -23,13 +23,6 @@ Professional PyCharm theme for VS Code and Cursor with advanced syntax highlight
 3. Search for "PyCharm Professional Dark"
 4. Click "Install"
 
-### Cursor
-
-1. Open Cursor
-2. Press `Ctrl+Shift+X` (or `Cmd+Shift+X` on macOS)
-3. Search for "PyCharm Professional Dark"
-4. Click "Install"
-
 ### Manual Installation
 
 1. **Download .vsix file** from [Releases](https://github.com/NGdust/pycharm-theme/releases)
@@ -69,34 +62,6 @@ class Example:
         return f"Hello, {self.name}!"
 ```
 
-### JavaScript code
-```javascript
-const theme = {
-    name: "PyCharm Professional Dark",
-    colors: {
-        background: "#1a1b26",
-        foreground: "#e4f0fb"
-    }
-};
-```
-
-## 🛠️ Development
-
-### Install dependencies
-```bash
-npm install
-```
-
-### Build package
-```bash
-npm run package
-```
-
-### Publish
-```bash
-npm run publish
-```
-
 ## 📝 Changelog
 
 ### 1.1.0
@@ -111,14 +76,6 @@ npm run publish
 - Professional color scheme
 - JetBrains syntax highlighting
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -126,7 +83,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - [GitHub Repository](https://github.com/NGdust/pycharm-theme)
-- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=NGdust.mixed-jetbrains-poimandres-theme)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=NGdust.pycharm-professional-dark)
 - [Issues](https://github.com/NGdust/pycharm-theme/issues)
 
 ## ⭐ Support
