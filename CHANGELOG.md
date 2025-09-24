@@ -9,13 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Update package name to pycharm-professional-dark
-- Remove all mixed-jetbrains-poimandres references
 - Clean up package naming for better marketplace presence
 
 ## [1.1.0] - 2025-01-27
 
 ### Changed
-- Remove all Poimandres references
 - Update theme description
 - Improve color palette
 - Update documentation
