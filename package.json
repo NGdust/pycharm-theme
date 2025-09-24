@@ -1,6 +1,6 @@
 {
   "name": "mixed-jetbrains-poimandres-theme",
-  "displayName": "PyCharm Dark Theme",
+  "displayName": "PyCharm Professional Dark",
   "description": "PyCharm theme for VS Code and Cursor with professional syntax highlighting",
   "version": "1.0.0",
   "publisher": "NGdust",
@@ -23,7 +23,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "PyCharm Dark Theme",
+        "label": "PyCharm Professional Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/mixed-theme.json"
       }
