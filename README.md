@@ -1,10 +1,10 @@
-# PyCharm Professional Dark
+# Quantum Night
 
 ![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.74.0+-blue.svg)
 
-Professional PyCharm theme for VS Code and Cursor with advanced syntax highlighting.
+Quantum Night theme for VS Code and Cursor with advanced syntax highlighting.
 
 ## 🎨 Features
 
@@ -20,12 +20,12 @@ Professional PyCharm theme for VS Code and Cursor with advanced syntax highlight
 
 1. Open VS Code
 2. Press `Ctrl+Shift+X` (or `Cmd+Shift+X` on macOS)
-3. Search for "PyCharm Professional Dark"
+3. Search for "Quantum Night"
 4. Click "Install"
 
 ### Manual Installation
 
-1. **Download .vsix file** from [Releases](https://github.com/NGdust/pycharm-theme/releases)
+1. **Download .vsix file** from [Releases](https://github.com/NGdust/quantum-night/releases)
 2. **Install via command palette:**
    - `Ctrl+Shift+P` (or `Cmd+Shift+P`)
    - "Extensions: Install from VSIX..."
@@ -36,7 +36,7 @@ Professional PyCharm theme for VS Code and Cursor with advanced syntax highlight
 1. Open VS Code/Cursor
 2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P`)
 3. Type "Preferences: Color Theme"
-4. Select "PyCharm Professional Dark"
+4. Select "Quantum Night"
 
 ## 🎨 Color Scheme
 
@@ -52,20 +52,12 @@ Professional PyCharm theme for VS Code and Cursor with advanced syntax highlight
 
 ## 📸 Screenshots
 
-### Python code
-```python
-class Example:
-    def __init__(self, name: str):
-        self.name = name
-    
-    def greet(self) -> str:
-        return f"Hello, {self.name}!"
-```
+### Screenshot
+![Quantum Night Theme](assets/image.png)
 
 ## 📝 Changelog
 
 ### 1.1.0
-- Remove Poimandres references
 - Update theme description
 - Improve color palette
 - Update documentation
@@ -82,9 +74,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/NGdust/pycharm-theme)
-- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=NGdust.pycharm-professional-dark)
-- [Issues](https://github.com/NGdust/pycharm-theme/issues)
+- [GitHub Repository](https://github.com/NGdust/quantum-night)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=NGdust.quantum-night)
+- [Issues](https://github.com/NGdust/quantum-night/issues)
 
 ## ⭐ Support
 

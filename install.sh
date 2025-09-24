@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script to install PyCharm Professional Dark in Cursor
+# Script to install Quantum Night in Cursor
 
-echo "🎨 Installing PyCharm Professional Dark in Cursor..."
+echo "🎨 Installing Quantum Night in Cursor..."
 
 # Определяем операционную систему
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -23,7 +23,7 @@ fi
 mkdir -p "$CURSOR_EXTENSIONS_DIR"
 
 # Copy theme
-THEME_DIR="$CURSOR_EXTENSIONS_DIR/pycharm-theme"
+THEME_DIR="$CURSOR_EXTENSIONS_DIR/quantum-night"
 echo "📁 Copying theme to $THEME_DIR..."
 
 if [ -d "$THEME_DIR" ]; then
@@ -41,6 +41,6 @@ echo "📋 Next steps:"
 echo "1. Restart Cursor"
 echo "2. Press Cmd+Shift+P (or Ctrl+Shift+P)"
 echo "3. Type 'Preferences: Color Theme'"
-echo "4. Select 'PyCharm Professional Dark'"
+echo "4. Select 'Quantum Night'"
 echo ""
 echo "🎉 Enjoy your new theme!"
