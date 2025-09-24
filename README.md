@@ -1,4 +1,4 @@
-# PyCharm Theme
+# PyCharm Dark Theme
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -20,14 +20,14 @@
 
 1. Откройте VS Code
 2. Нажмите `Ctrl+Shift+X` (или `Cmd+Shift+X` на macOS)
-3. Найдите "PyCharm Theme"
+3. Найдите "PyCharm Dark Theme"
 4. Нажмите "Install"
 
 ### Cursor
 
 1. Откройте Cursor
 2. Нажмите `Ctrl+Shift+X` (или `Cmd+Shift+X` на macOS)
-3. Найдите "PyCharm Theme"
+3. Найдите "PyCharm Dark Theme"
 4. Нажмите "Install"
 
 ### Ручная установка
@@ -43,7 +43,7 @@
 1. Откройте VS Code/Cursor
 2. Нажмите `Ctrl+Shift+P` (или `Cmd+Shift+P`)
 3. Введите "Preferences: Color Theme"
-4. Выберите "PyCharm Theme"
+4. Выберите "PyCharm Dark Theme"
 
 ## 🎨 Цветовая схема
 
@@ -72,7 +72,7 @@ class Example:
 ### JavaScript код
 ```javascript
 const theme = {
-    name: "PyCharm Theme",
+    name: "PyCharm Dark Theme",
     colors: {
         background: "#1a1b26",
         foreground: "#e4f0fb"

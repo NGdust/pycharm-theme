@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Скрипт для установки PyCharm Theme в Cursor
+# Скрипт для установки PyCharm Dark Theme в Cursor
 
-echo "🎨 Установка PyCharm Theme в Cursor..."
+echo "🎨 Установка PyCharm Dark Theme в Cursor..."
 
 # Определяем операционную систему
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -41,6 +41,6 @@ echo "📋 Следующие шаги:"
 echo "1. Перезапустите Cursor"
 echo "2. Нажмите Cmd+Shift+P (или Ctrl+Shift+P)"
 echo "3. Введите 'Preferences: Color Theme'"
-echo "4. Выберите 'PyCharm Theme'"
+echo "4. Выберите 'PyCharm Dark Theme'"
 echo ""
 echo "🎉 Наслаждайтесь новой темой!"
